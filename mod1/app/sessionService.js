@@ -7,7 +7,7 @@ function sessionService($window){
     function save(key, value){
         $window.sessionStorage.setItem(key, value);
     }
-    function get(key, value){
+    function get(key){
         return $window.sessionStorage.getItem(key);
     }
     function clear(){
